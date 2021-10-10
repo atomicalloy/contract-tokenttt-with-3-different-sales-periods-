@@ -1,0 +1,24 @@
+contract Tokenttt {
+    address public owner;
+        _owner = msg.sender; 
+contract tokenttt is crowdsale, whitelist;
+      string public standard = "ERC-20;"
+      string public name = "TokenTTT";
+      string public symbol = "TTT";
+      uint8 public decimals = "0";
+      uint256 public totalsupply;
+      
+      function TokenTTTBuy (TokenTTT_tokenContract, uint256 _tokenPrice,) public;
+               tokenContract = _tokenContract;
+               tokenPrice = _tokenPrice;
+               
+      function buyTokens (uint256 _numberOfTokens) public payable {
+           require buyTokens(msg.sender);
+           require TimePeriod; 
+                   TimePeriod = _TimePeriod; 
+           if (TimePeriod = 3){
+               function BuyTokens = 42;
+           } else if (TimePeriod > 3 && TimePeriod <=14)
+               function BuyTokens = 8; 
+           } else if (TimePeriod > 14 && TimePeriod <=30)
+               function BuyTokens = 21; 
